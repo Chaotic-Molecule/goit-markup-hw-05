@@ -634,6 +634,10 @@ margin-bottom: 8px;
     margin-top: 8px;
 }
 
+.user-comment {
+    margin-bottom: 16px;
+}
+
 .modal-icon {
     position: absolute;
     left: 16px;
@@ -654,6 +658,7 @@ margin-bottom: 8px;
     border-radius: 4px;
     padding: 8px 16px;
     outline: transparent;
+    background-color: transparent;
     resize: none;
     font-size: 12px;
     line-height: 1.17;
@@ -661,6 +666,11 @@ margin-bottom: 8px;
     color: rgba(46, 47, 66, 0.4);
     padding-top: 8px;
     padding-left: 16px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-text:focus {
+    border-color: #4D5AE5;
 }
 
 .privacy-text {
@@ -700,6 +710,15 @@ margin-bottom: 8px;
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
+}
+
+.checkbox-wrap {
+    margin-bottom: 24px;
+}
+
+.checkmark {
+    display: inline-flex;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn {
