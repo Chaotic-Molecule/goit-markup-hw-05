@@ -587,7 +587,10 @@ margin-bottom: 8px;
     transition-duration: 250ms; 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
-    fill: #ffffff;
+}
+
+.close-btn:hover .btn-icon, .close-btn:focus .btn-icon {
+    fill: #FFFFFF;
 }
 
 .modal-title {
@@ -679,7 +682,6 @@ margin-bottom: 8px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
     align-items: center;
     margin-top: 16px;
     margin-right: 8px;
@@ -758,6 +760,8 @@ margin-bottom: 8px;
     transition-duration: 250ms; 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
+
 
 .subscribe {
     margin-left: 80px;
